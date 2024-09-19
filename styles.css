@@ -1,0 +1,57 @@
+/* General body styling */
+body {
+    background: url('thumb-1920-423529.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling the terminal look */
+.terminal {
+    background-color: rgba(0, 0, 0, 0.8); /* Add transparency to see background */
+    padding: 20px;
+    border: 2px solid green;
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 0 15px green;
+}
+
+.output {
+    height: 90%;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+}
+
+.highlight {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+/* Input prompt styling */
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.prompt {
+    margin-right: 10px;
+    color: #00FF00;
+}
+
+/* Typed text effect */
+#typed {
+    color: #00FF00;
+}
+
+input[type="text"] {
+    background-color: black;
+    border: none;
+    outline: none;
+    color: green;
+    width: 80%;
+}
